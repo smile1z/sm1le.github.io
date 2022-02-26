@@ -47,7 +47,7 @@ const allowedDomains = [
   'localhost:4000',
 
   
-    'raw.githubusercontent.com',
+    'img1.baidu.com',
   
 
   'fonts.gstatic.com',
