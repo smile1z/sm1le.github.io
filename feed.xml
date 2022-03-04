@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Sm1le</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-02-28T15:11:57+08:00</updated>
+  <updated>2022-03-04T18:54:39+08:00</updated>
   <author>
     <name>Smile_v843</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,227 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>网络基础</title>
+    <link href="http://localhost:4000/posts/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/" rel="alternate" type="text/html" title="网络基础" />
+    <published>2022-01-04T16:55:00+08:00</published>
+  
+    <updated>2022-01-04T16:55:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/</id>
+    <content src="http://localhost:4000/posts/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/" />
+    <author>
+      <name>{"name"=>"Sm1le", "link"=>"https://github.com/smile1z"}</name>
+    </author>
+
+  
+    
+    <category term="其他学习" />
+    
+    <category term="培训" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      网络基础
+
+首先一说到计算机网络，大家肯定可以想起一台台计算机连接起来的样子，也能想到计算机网络是由网线连接成的。
+
+物理上，计算机网络就是由网线和网络通信硬件设备。
+
+网络硬件设备一般有：集线器、交换机、路由、网卡等等
+
+这里咱们就一起来学习，数据在通信硬件设备怎么传输的？计算机网络是由哪几层组成的？
+
+计算机网络七层模型：(70min - 90min)
+
+OSI模型(开放式系统互联模型)（英语：Open System Interconnection Model)
+
+OSI三方面概述图：
+
+OSI各层数据传输概述
+
+
+
+OSI各层硬件概述
+
+
+
+OSI各层协议概述
+
+
+
+各层都有什么用？(20min)
+
+物理层：
+
+​	物理层是OSI的第一层，它虽然处于最底层，却是整个开放系统的基础。物理层为设备之间的数据通信提供传输媒体及互连设备，为数据传输提供可靠的环境。如果您想要用尽量少的词...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>翻墙原理</title>
+    <link href="http://localhost:4000/posts/%E7%BF%BB%E5%A2%99%E5%8E%9F%E7%90%86/" rel="alternate" type="text/html" title="翻墙原理" />
+    <published>2021-11-15T19:55:00+08:00</published>
+  
+    <updated>2021-11-15T19:55:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E7%BF%BB%E5%A2%99%E5%8E%9F%E7%90%86/</id>
+    <content src="http://localhost:4000/posts/%E7%BF%BB%E5%A2%99%E5%8E%9F%E7%90%86/" />
+    <author>
+      <name>{"name"=>"Sm1le", "link"=>"https://github.com/smile1z"}</name>
+    </author>
+
+  
+    
+    <category term="其他学习" />
+    
+    <category term="问题导向" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      现象：
+
+换了个翻墙软件，发现这个软件在访问ipip.net不能隐匿自己的ip，会显示我自己的ip。这就让我心生担心，不能隐匿自己的ip，那干坏事(挖洞、翻墙后自己的隐私等等)就会被轻易发现，所以就想探究一下翻墙的原理。
+
+想解决的问题：
+
+翻墙究竟能不能隐匿ip？
+
+如何知道自己用的翻墙软件的翻墙方式
+
+浏览器检验ip的网站是通过什么包检验的
+
+解决了：
+
+开个全局模式就行了= =，不知道为啥这次就行，之前都不行。开全局模式后得等一会
+
+全局模式是指所有网站通过代理访问，包括您在国内可以直连的网站。在全局模式下，由于您在国内可以直连的网站都会通过我们的服务，这会导致您浏览国内网站时网速变慢，所以一般不建议您更改为全局模式，
+
+PAC模式是境外的网站走代理访问，国内的网站不会通过我们的代理。可能会出现少部分国外网站会不经过代理，不能起到加速效果，甚至无法访问（解决方案：您可以编辑PA...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>我的渗透测试总结</title>
+    <link href="http://localhost:4000/posts/%E6%88%91%E7%9A%84%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93/" rel="alternate" type="text/html" title="我的渗透测试总结" />
+    <published>2021-10-10T10:55:00+08:00</published>
+  
+    <updated>2021-10-10T10:55:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E6%88%91%E7%9A%84%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93/</id>
+    <content src="http://localhost:4000/posts/%E6%88%91%E7%9A%84%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93/" />
+    <author>
+      <name>{"name"=>"Sm1le", "link"=>"https://github.com/smile1z"}</name>
+    </author>
+
+  
+    
+    <category term="其他学习" />
+    
+    <category term="渗透测试" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      我的渗透测试总结
+
+2021.4.20	对渗透测试有了了解，做了简单系统性的学习。
+
+2021.8.18	自己做了渗透测试的思维导图。(现在看来还是做得挺好的，勿喷)
+
+
+
+2021.10.5	自己学习了一个月的内网渗透，搭建并完成了[VulnStack] ATT&amp;amp;CK实战系列—红队实战（一）。使用过msf，cs，还自己装了冰蝎哥斯拉。算是，走过一两次内网渗透的流程。(当时自己感觉还是很有成就感的)
+
+更新：然后，我的渗透测试和内网渗透的学习到现在(2022.3.2)也没进展= =。也是听我的学长黄老板说，内网渗透很难搞，而且依赖真实环境，所以自己学习的话比较困难。所以我就先把外网能力提升，然后再深入做内网等。
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>字节码与python反序列化</title>
+    <link href="http://localhost:4000/posts/%E5%AD%97%E8%8A%82%E7%A0%81%E5%92%8Cpython%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/" rel="alternate" type="text/html" title="字节码与python反序列化" />
+    <published>2021-08-10T12:40:00+08:00</published>
+  
+    <updated>2021-08-10T12:40:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%AD%97%E8%8A%82%E7%A0%81%E5%92%8Cpython%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</id>
+    <content src="http://localhost:4000/posts/%E5%AD%97%E8%8A%82%E7%A0%81%E5%92%8Cpython%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/" />
+    <author>
+      <name>{"name"=>"Sm1le", "link"=>"https://github.com/smile1z"}</name>
+    </author>
+
+  
+    
+    <category term="Web安全" />
+    
+    <category term="python" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      字节码
+
+什么是机器码
+
+机器码
+
+机器码(machine code)，学名机器语言指令，有时也被称为原生码（Native Code），是电脑的CPU可直接解读的数据。
+
+通常意义上来理解的话，机器码就是计算机可以直接执行，并且执行速度最快的代码。
+
+用机器语言编写程序，编程人员要首先熟记所用计算机的全部指令代码和代码的涵义。手编程序时，程序员得自己处理每条指令和每一数据的存储分配和输入输出，还得记住编程过程中每步所使用的工作单元处在何种状态。这是一件十分繁琐的工作，编写程序花费的时间往往是实际运行时间的几十倍或几百倍。而且，编出的程序全是些0和1的指令代码，直观性差，还容易出错。现在，除了计算机生产厂家的专业人员外，绝大多数的程序员已经不再去学习机器语言了。
+
+什么是字节码
+
+字节码
+
+字节码（Bytecode）是一种包含执行程序、由一序列 op 代码/数据对 组成的二进制文件。字...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -33,6 +254,8 @@
     </author>
 
   
+    
+    <category term="其他学习" />
     
     <category term="Jekyll教程" />
     
@@ -51,186 +274,6 @@
 Set up Google Analytics
 
 Create GA account a...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Customize the Favicon</title>
-    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T00:34:00+08:00</published>
-  
-    <updated>2019-08-11T00:34:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/customize-the-favicon/</id>
-    <content src="http://localhost:4000/posts/customize-the-favicon/" />
-    <author>
-      <name>{"name"=>"Cotes Chung", "link"=>"https://github.com/cotes2020"}</name>
-    </author>
-
-  
-    
-    <category term="Jekyll教程" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
-
-Generate the favicon
-
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Getting Started</title>
-    <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T20:55:00+08:00</published>
-  
-    <updated>2019-08-09T20:55:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/getting-started/</id>
-    <content src="http://localhost:4000/posts/getting-started/" />
-    <author>
-      <name>{"name"=>"Cotes Chung", "link"=>"https://github.com/cotes2020"}</name>
-    </author>
-
-  
-    
-    <category term="Jekyll教程" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Prerequisites
-
-Follow the instructions in the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll, and Bundler. In addition, Git is also required to be installed.
-
-Installation
-
-Creating a New Site
-
-There are two ways to create a new repository for this theme:
-
-
-  Using the Chirpy Starter - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
-  Forking ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Writing a New Post</title>
-    <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T14:10:00+08:00</published>
-  
-    <updated>2019-08-08T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/write-a-new-post/</id>
-    <content src="http://localhost:4000/posts/write-a-new-post/" />
-    <author>
-      <name>{"name"=>"Cotes Chung", "link"=>"https://github.com/cotes2020"}</name>
-    </author>
-
-  
-    
-    <category term="Jekyll教程" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This post will guide you how to write a post on Chirpy theme. Even if you have previous experience with Jekyll, this article is worth reading, because many features require specific variables to be set.
-
-Naming and Path
-
-Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Text and Typography</title>
-    <link href="http://localhost:4000/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
-    <published>2019-08-08T11:33:00+08:00</published>
-  
-    <updated>2019-08-08T11:33:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/text-and-typography/</id>
-    <content src="http://localhost:4000/posts/text-and-typography/" />
-    <author>
-      <name>{"name"=>"Cotes Chung", "link"=>"https://github.com/cotes2020"}</name>
-    </author>
-
-  
-    
-    <category term="Jekyll教程" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This post is to show Markdown syntax rendering on Chirpy, you can also use it as an example of writing. Now, let’s start looking at text and typography.
-
-Titles
-
-H1 - heading
-
-H2 - heading
-
-H3 - heading
-
-H4 - heading
-
-
-
-Paragraph
-
-I wandered lonely as a cloud
-
-That floats on high o’er vales and hills,
-
-When all at once I saw a crowd,
-
-A host, of golden daffodils;
-
-Beside the lake, beneath the t...
     </summary>
   
 
