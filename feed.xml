@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Sm1le</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-03-04T18:54:39+08:00</updated>
+  <updated>2022-03-17T09:34:52+08:00</updated>
   <author>
     <name>Smile_v843</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,64 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>2021 OWASP TOP10学习(待完善)</title>
+    <link href="http://localhost:4000/posts/OWASP-TOP10/" rel="alternate" type="text/html" title="2021 OWASP TOP10学习(待完善)" />
+    <published>2022-03-13T18:55:00+08:00</published>
+  
+    <updated>2022-03-13T18:55:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/OWASP-TOP10/</id>
+    <content src="http://localhost:4000/posts/OWASP-TOP10/" />
+    <author>
+      <name>{"name"=>"Sm1le", "link"=>"https://github.com/smile1z"}</name>
+    </author>
+
+  
+    
+    <category term="Web安全" />
+    
+    <category term="更多知识" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      2021 OWASP TOP10学习(待完善)
+
+OWASP TOP10：open web application security project(开放式web应用安全项目)
+
+总结了web最可能、最常见、最危险的十大漏洞，是web安全界最权威的项目。
+
+自我认知
+
+OWASP TOP10有什么用？涵盖访问广吧，格局更大吧。包含了开发的全过程：环境方面(设计、配置、组件、基础设施、日志和监控)，通信方面(访问控制、加密机制、身份识别)，用户方面(注入、ssrf)。
+
+但其实了解过之后，还是挺干的，具体真正学习应该得潜移默化的了。
+
+虽然了解一遍，但还是不够理解，理解得比较浅层，勿喷。
+
+变化
+
+
+
+A1失效的访问控制
+
+访问控制强制实施策略，使用户无法在其预期权限之外进行操作。失败的访问控制通常会导致未经授权 的信息泄露、修改或销毁所有数据、或在用户权限之外执行业务功能。
+
+常见的...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -234,46 +292,6 @@ PAC模式是境外的网站走代理访问，国内的网站不会通过我们�
 字节码
 
 字节码（Bytecode）是一种包含执行程序、由一序列 op 代码/数据对 组成的二进制文件。字...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Enable Google Page Views</title>
-    <link href="http://localhost:4000/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
-    <published>2021-01-04T07:32:00+08:00</published>
-  
-    <updated>2021-01-04T07:32:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/enable-google-pv/</id>
-    <content src="http://localhost:4000/posts/enable-google-pv/" />
-    <author>
-      <name>{"name"=>"Dinesh Prasanth Moluguwan Krishnamoorthy", "link"=>"https://github.com/SilleBille"}</name>
-    </author>
-
-  
-    
-    <category term="其他学习" />
-    
-    <category term="Jekyll教程" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep the google_analytics.pv.* empty unless you have a good reason. If your website has low traffic, the page views count would discourage you to write more blogs. With that said, let’s start with the setup.
-
-Set up Google Analytics
-
-Create GA account a...
     </summary>
   
 
